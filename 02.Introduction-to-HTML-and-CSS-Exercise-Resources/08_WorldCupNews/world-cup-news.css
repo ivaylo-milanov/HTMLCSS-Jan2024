@@ -1,0 +1,26 @@
+#wrapper {
+  border: 1px solid #000;
+  background-color: #a6e1ec;
+  padding: 10px 20px;
+  width: 700px;
+  height: 730px;
+  margin: auto;
+}
+
+img {
+  width: 200px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+ul li {
+  padding: 10px;
+  list-style: none;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+
+span {
+  color: #3f51b5;
+}
