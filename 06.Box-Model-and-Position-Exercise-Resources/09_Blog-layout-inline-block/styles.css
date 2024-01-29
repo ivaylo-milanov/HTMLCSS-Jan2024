@@ -1,0 +1,16 @@
+body {
+  display: flex;
+}
+
+main {
+  padding: 20px 20px 20px 50px;
+}
+
+aside {
+  max-width: 100em;
+  padding-right: 7em;
+}
+
+img {
+  width: 400px;
+}
