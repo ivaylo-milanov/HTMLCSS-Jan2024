@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 90px;
+}
+
+main {
+  margin-bottom: 90px;
+}
+
+header {
+  border-bottom: 2px solid #000;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+header p {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  float: left;
+  margin-top: 11px;
+}
+
+nav {
+  float: right;
+  margin-bottom: 25px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.8em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 102, 0);
+}
+
+h1,
+h2 {
+  font: 1.7em/1.2 "Georgia", serif;
+  margin: 30px 0 15px;
+}
+
+article p {
+  margin-bottom: 15px;
+}
+
+article .first-image {
+  float: right;
+  margin: 0 20px;
+}
+
+section ul {
+  margin: 10px 30px;
+}
+
+section ul li a {
+  text-decoration: none;
+  color: rgb(0, 102, 0);
+}
+
+div {
+  margin-bottom: 16em;
+}
+
+div > p {
+  float: left;
+  max-width: 40%;
+  border-right: 3px solid #eee;
+  padding-right: 3.5em;
+}
+
+blockquote {
+  float: right;
+  max-width: 40%;
+  color: #aaa;
+  font-style: italic;
+  margin-right: 20px;
+}
+
+.author {
+  float: right;
+}
+
+.second-image {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+main {
+  max-width: 45em;
+  float: left;
+}
+
+aside {
+  float: right;
+  vertical-align: top;
+  margin: 2.5em 7.5em 0 0;
+}
+
+img {
+  padding: 0.5em;
+  background-color: white;
+  border: 0.2em solid black;
+  box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.25);
+}
