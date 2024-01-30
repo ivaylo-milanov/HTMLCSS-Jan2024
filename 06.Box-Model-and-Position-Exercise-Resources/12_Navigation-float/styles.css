@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -47,22 +48,21 @@ h2 {
   margin: 30px 0 15px;
 }
 
+main {
+  margin-bottom: 90px;
+  max-width: 45em;
+  float: left;
+}
+
 article p {
   margin-bottom: 15px;
 }
 
-article .first-image {
-  float: right;
-  margin: 0 20px;
-}
-
-section ul {
-  margin: 10px 30px;
-}
-
-section ul li a {
-  text-decoration: none;
-  color: rgb(0, 102, 0);
+img {
+  padding: 0.5em;
+  background-color: white;
+  border: 0.2em solid black;
+  box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.25);
 }
 
 div {
@@ -84,6 +84,26 @@ blockquote {
   margin-right: 20px;
 }
 
+aside {
+  float: right;
+  margin: 2.5em 7.5em 0 0;
+  vertical-align: top;
+}
+
+section ul {
+  margin: 10px 30px;
+}
+
+section ul li a {
+  text-decoration: none;
+  color: rgb(0, 102, 0);
+}
+
+.first-image {
+  float: right;
+  margin: 0 20px;
+}
+
 .author {
   float: right;
 }
@@ -91,22 +111,4 @@ blockquote {
 .second-image {
   float: left;
   margin: 0 20px 0 0;
-}
-
-main {
-  max-width: 45em;
-  float: left;
-}
-
-aside {
-  float: right;
-  vertical-align: top;
-  margin: 2.5em 7.5em 0 0;
-}
-
-img {
-  padding: 0.5em;
-  background-color: white;
-  border: 0.2em solid black;
-  box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.25);
 }
