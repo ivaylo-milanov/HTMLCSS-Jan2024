@@ -66,28 +66,27 @@ img {
 }
 
 div {
-  margin-bottom: 16em;
+  display: inline-block;
 }
 
 div > p {
   float: left;
-  max-width: 40%;
+  max-width: 50%;
   border-right: 3px solid #eee;
-  padding-right: 3.5em;
+  padding-right: 3em;
 }
 
 blockquote {
-  float: right;
+  float: left;
   max-width: 40%;
   color: #aaa;
   font-style: italic;
-  margin-right: 20px;
+  margin-left: 3em;
 }
 
 aside {
   float: right;
   margin: 2.5em 7.5em 0 0;
-  vertical-align: top;
 }
 
 section ul {
