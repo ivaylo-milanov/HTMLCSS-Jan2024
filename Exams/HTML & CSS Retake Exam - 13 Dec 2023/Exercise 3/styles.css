@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 1em 2em 1.5em;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0.8em 1em;
+  background-color: #ccc;
+}
+
+nav ul li:hover {
+  background-color: lightgreen;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 12px;
+}
+
+nav ul li:hover a {
+  color: #000;
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+}
+
+.title p:first-child {
+  font-size: 30px;
+  padding-right: 0.5em;
+  border-right: 2px solid #999;
+  margin-right: 0.5em;
+  color: #222;
+}
+
+.title p:last-child {
+  font-size: 12px;
+  color: #aaa;
+}
+
+main img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+main > p {
+  padding: 4em 8em;
+  background-color: lightgreen;
+}
+
+main > ul {
+  padding: 6em;
+  display: flex;
+  background-color: #333;
+  gap: 2em;
+}
+
+main > ul li {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+main ul li i {
+  font-size: 2em;
+  padding: 0.5em;
+  background-color: lightgreen;
+}
+
+h3, h4 {
+  color: #fff;
+  padding: 1em 0;
+}
+
+main ul li p {
+  font-size: 14px;
+  color: #666;
+  line-height: 2;
+  text-align: center;
+}
+
+main ul:first-of-type li p {
+  border-top: 1px solid #fff;
+  padding-top: 1em;
+}
+
+main div {
+  text-align: center;
+  padding: 4em 17em;
+  line-height: 1.5;
+}
+
+main div p:first-of-type {
+  font-size: 25px;
+  color: #555;
+}
+
+main div p:last-of-type {
+  font-size: 13px;
+  color: #999;
+}
+
+main div button {
+  margin-top: 1em;
+  padding: 1em 2em;
+  background-color: orange;
+  border: 0;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+footer {
+  padding: 3em 15em;
+  background-color: lightgreen;
+  color: green;
+  font-size: 14px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer span {
+  color: #fff;
+}
