@@ -1,0 +1,32 @@
+footer {
+  background-color: #171720;
+  font-size: 14px;
+}
+
+footer .categories {
+  padding: 3em 4em;
+  gap: 3em;
+}
+
+footer .categories .category ul {
+  list-style: none;
+}
+
+.category h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 1em;
+}
+
+.category ul li {
+  color: #b3a6a8;
+  line-height: 3;
+  text-transform: uppercase;
+}
+
+.copyright {
+  color: #b3a6a8;
+  padding: 1em 7.6em;
+  border-top: 1px solid #3a3a41;
+}

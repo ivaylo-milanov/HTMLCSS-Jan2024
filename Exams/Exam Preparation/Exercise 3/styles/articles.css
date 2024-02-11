@@ -1,0 +1,21 @@
+.articles {
+  background-color: #fff;
+}
+
+.articles .section-container {
+  padding: 6em 9em;
+  display: flex;
+  gap: 2em;
+}
+
+.articles .section-container article p {
+  padding: 1em 0 2em;
+  line-height: 2;
+}
+
+.articles .section-container article a {
+  border: 2px solid #b0825c;
+  text-decoration: none;
+  color: #b0825c;
+  padding: 0.5em 1em;
+}

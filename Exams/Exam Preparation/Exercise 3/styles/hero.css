@@ -1,0 +1,22 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-size: 80%;
+  background-position: center -30px;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+.hero {
+  color: #fff;
+}
+
+.hero .section-container {
+  padding: 2em 40.6em 15em 9em;
+  text-align: start;
+}
+
+.hero .section-container h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+

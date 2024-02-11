@@ -1,0 +1,33 @@
+.sponsors {
+  border-top: 2px solid #ccc;
+  background-color: #fff;
+}
+
+.sponsors .section-container {
+  padding: 3em 12em;
+  text-align: center;
+}
+
+.sponsors .section-container h2 {
+  color: #b0825c;
+}
+
+.sponsors .section-container p {
+  padding: 1em 0 2em;
+}
+
+.sponsors .section-container .sponsor-images {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+
+.sponsor-images .sponsor-image {
+  background-color: #ccc;
+  flex: 0 1 7em;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+
+

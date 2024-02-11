@@ -1,0 +1,10 @@
+.partners {
+  text-align: center;
+  padding-bottom: 3em;
+  background-color: #fff;
+}
+
+.partners .section-container h2 {
+  padding-bottom: 0.5em;
+  color: #b0825c;
+}

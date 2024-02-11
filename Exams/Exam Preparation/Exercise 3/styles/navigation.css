@@ -1,0 +1,9 @@
+nav ul {
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
