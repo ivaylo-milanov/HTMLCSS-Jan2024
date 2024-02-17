@@ -1,0 +1,38 @@
+.hero-subtitle {
+  padding: 1em 0;
+}
+
+.hero1,
+.hero2 {
+  background-color: #ade2df;
+}
+
+.hero1 .section-container {
+  padding: 4em 0;
+}
+
+.hero2 .section-container {
+  padding: 4em 25%;
+}
+
+.hero2 .section-container .hero-title {
+  line-height: 1;
+}
+
+.hero-buttons {
+  margin: 2em 0;
+}
+
+.hero-buttons a {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+}
+
+.hero-subtitle {
+  padding-top: 0;
+}
+

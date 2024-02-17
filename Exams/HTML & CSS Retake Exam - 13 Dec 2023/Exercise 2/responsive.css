@@ -1,0 +1,95 @@
+@media (max-width: 600px) {
+  .game-world-header {
+    height: 190px;
+  }
+
+  .tm-header {
+    bottom: -30px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+
+  .tm-nav-ul {
+    justify-content: center;
+  }
+
+  .tm-site-logo {
+    width: 5em;
+  }
+
+  .col-md-6.col-12 {
+    text-align: center;
+  }
+
+  .tm-section-title {
+    font-size: 3rem;
+    margin-left: 0;
+    padding: 0 2em;
+  } 
+
+  .tm-welcome-section {
+    align-items: center;
+  }
+
+  p.col-12.text-center {
+    font-size: 1.5em;
+  }
+
+  .tm-paging-item {
+    font-size: 1.8em;
+  }
+
+  #tm-gallery-page-all {
+    margin: 0;
+  }
+
+  .tm-gallery-item {
+    max-width: 100%;
+  }
+
+  .row.tm-gallery {
+    margin-right: 80px;
+  }
+
+  .tm-gallery-title {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .tm-gallery-description {
+    font-size: 20px;
+  }
+
+  .tm-gallery-price {
+    font-size: 33px;
+  }
+
+  .tm-description-figure {
+    width: 28em;
+  }
+
+  .tm-cta-section.tm-section.tm-container-inner {
+    padding-left: 2em;
+  }
+
+  .tm-mb-45 {
+    font-size: 25px;
+  }
+
+  .tm-description-box {
+    align-items: flex-start;
+    padding: 0 1.5em;
+  }
+
+  .tm-description-box a {
+    font-size: 24px;
+  }
+
+  .tm-footer {
+    font-size: 24px;
+  }
+}

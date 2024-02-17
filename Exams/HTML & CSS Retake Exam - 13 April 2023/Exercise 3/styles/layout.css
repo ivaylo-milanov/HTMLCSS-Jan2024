@@ -1,0 +1,172 @@
+.section-container {
+  max-width: 100em;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.site-header .section-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 4em 2em 7em;
+}
+
+nav ul {
+  display: flex;
+  gap: 1em;
+}
+
+.hero .section-container {
+  display: flex;
+}
+
+.hero-content {
+  align-self: center;
+  padding: 10em 5em;
+}
+
+.hero-media img {
+  height: 100%;
+  width: 33em;
+}
+
+.hero-text {
+  padding: 2em 0;
+}
+
+.information .section-container {
+  padding: 1.5em 3em 3.7em;
+}
+
+.information-header {
+  text-align: center;
+}
+
+.information-text {
+  padding: 1.5em 14em 3em;
+}
+
+.information-media {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 4.8em;
+}
+
+.information-card-title {
+  padding: 1.5em 0;
+}
+
+.work .section-container {
+  padding: 6em 0;
+}
+
+.work-header {
+  text-align: center;
+}
+
+.goals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em 8em;
+  gap: 1em 3em;
+}
+
+/* .goals li::marker {
+  font-size: 3.5em;
+  display: inline-block;
+  padding-left: 20px;
+} */
+
+.goals li {
+  flex: 0 0 34%;
+}
+
+.mission-button {
+  text-align: center;
+}
+
+.goals li:nth-child(1) { order: 1; }
+.goals li:nth-child(2) { order: 3; }
+.goals li:nth-child(3) { order: 5; }
+.goals li:nth-child(4) { order: 2; }
+.goals li:nth-child(5) { order: 4; }
+.goals li:nth-child(6) { order: 6; }
+
+.animals .section-container {
+  text-align: center;
+  padding: 2em 0 4em;
+}
+
+.animals-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4em;
+}
+
+.image-container img {
+  width: 20em;
+}
+
+.animals-images .image-container {
+  width: 18em;
+  overflow: hidden;
+  position: relative;
+}
+
+.animals-text {
+  padding: 1.5em 0;
+}
+
+.way-of-work .section-container {
+  padding: 3em 15em;
+}
+
+.way-of-work-title {
+  text-align: center;
+}
+
+.way-of-work-card-title,
+.way-of-work-card-text {
+  padding: 1em;
+}
+
+.contact-us .section-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contact-us-media {
+  flex: 0 0 50%;
+}
+
+.contact-us-content {
+  padding: 5em;
+}
+
+.contact-us-quote {
+  padding: 2em 0;
+}
+
+.contact-us input {
+  padding: 1em 1.3em;
+}
+
+.contact-us button {
+  display: block;
+  margin-top: 2.5em;
+  padding: 1em 5em;
+}
+
+.site-footer .section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em 9em;
+}
+
+.socials {
+  display: flex;
+  gap: 0.7em;
+}

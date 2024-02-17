@@ -1,0 +1,108 @@
+.section-container {
+  max-width: 110em;
+  margin: 0 auto;
+}
+
+.site-header .section-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 10em;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 3em;
+  list-style: none;
+}
+
+.statistics .section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.statistic {
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+  text-align: center;
+}
+
+.information .section-container {
+  display: flex;
+}
+
+.information .information-text {
+  align-self: center;
+}
+
+.information .phone-img {
+  border: 2px solid #98b8b6;
+  border-style: dashed;
+}
+
+.pricing-header {
+  text-align: center;
+}
+
+.pricing .section-container .pricing-cards {
+  display: flex;
+}
+
+.card button,
+.contacts button {
+  display: block;
+  width: 100%;
+}
+
+.contacts {
+  padding: 2em;
+}
+
+.card {
+  padding: 0 2em;
+}
+
+.card ul,
+.contacts ul {
+  list-style: none;
+}
+
+.pricing-cards {
+  border: 1px solid #dbdbdb;
+  border-radius: 1em;
+}
+
+.pricing-cards .card:nth-child(2) {
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+
+.contacts {
+  border-left: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-content {
+  flex: 1 0 auto;
+}
+
+.hero2 .section-container {
+  padding: 0 35%;
+}
+
+.site-footer .section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}

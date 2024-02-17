@@ -1,0 +1,79 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+html {
+  font: 16px/1.5 Inter, sans-serif;
+}
+
+
+.hero1 .section-container,
+.hero2 .section-container {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.65em;
+}
+
+.number {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.statistic-text {
+  font-size: 1.5em;
+}
+
+.hero-buttons a {
+  font-size: 1.3em;
+}
+
+.information-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.information-text {
+  font-size: 1.3em;
+}
+
+.information-text .section-title {
+  font-weight: bold;
+  padding-bottom: 0.6em;
+}
+
+.information-text .section-text {
+  padding-bottom: 2em;
+}
+
+.pricing {
+  font-size: 1.3em;
+}
+
+.pricing-title {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.packet {
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+.price {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.card button {
+  font-size: 1em;
+}
+
+.contacts button {
+  font-size: 1em;
+}
